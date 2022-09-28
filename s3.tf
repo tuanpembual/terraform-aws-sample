@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "bucket_devops_cilsy" {
-  bucket = "bucket-devops-cilsy"
+resource "aws_s3_bucket" "bucket_devops_estu" {
+  bucket = "bucket-devops-estu"
   acl = "private"
   
   versioning {
@@ -7,6 +7,6 @@ resource "aws_s3_bucket" "bucket_devops_cilsy" {
   }
 
   tags = {
-    Name = "bucket-devops-cilsy"
+    Name = "bucket-devops-estu"
   }
 }
